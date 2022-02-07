@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67FC247427B0695400916B67 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67FC247327B0695400916B67 /* main.cpp */; };
+		67FC247C27B0D34500916B67 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67FC247A27B0D34500916B67 /* game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		67FC247027B0695400916B67 /* text based */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "text based"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FC247327B0695400916B67 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		67FC247A27B0D34500916B67 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		67FC247B27B0D34500916B67 /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				67FC247327B0695400916B67 /* main.cpp */,
+				67FC247A27B0D34500916B67 /* game.cpp */,
+				67FC247B27B0D34500916B67 /* game.hpp */,
 			);
 			path = "text based";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67FC247427B0695400916B67 /* main.cpp in Sources */,
+				67FC247C27B0D34500916B67 /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
